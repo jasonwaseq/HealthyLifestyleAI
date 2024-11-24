@@ -8,6 +8,7 @@ public:
     Recommendations();
     std::string generateExerciseRecommendation(double activityLevel);
     std::string generateDietRecommendation(double bmi);
+    std::string generateMotivationalQuote();
 };
 
 #endif // RECOMMENDATIONS_H
