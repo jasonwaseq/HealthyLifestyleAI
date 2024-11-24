@@ -7,7 +7,7 @@ class CommandParser {
 public:
     CommandParser();
     void parseCommand(const std::string& command);
-    // Other member functions for command parsing
+    void showHelp();
 };
 
 #endif // COMMANDPARSER_H
