@@ -1,6 +1,4 @@
 # HealthyLifestyleAI
-
-# HealthyLifestyleAI
 An AI-based healthy lifestyle system that provides exercise and diet recommendations using natural language processing and a linear regression model.
 
 ## Features
