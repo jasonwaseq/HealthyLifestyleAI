@@ -4,8 +4,6 @@
 LinearRegression::LinearRegression() : m_slope(0), m_intercept(0) {}
 
 void LinearRegression::fit(const std::vector<double>& x, const std::vector<double>& y) {
-    // Simple linear regression fit (just for demonstration)
-    // Calculate slope (m) and intercept (b) of y = mx + b
     double sumX = 0, sumY = 0, sumXY = 0, sumX2 = 0;
     int n = x.size();
     
@@ -22,4 +20,8 @@ void LinearRegression::fit(const std::vector<double>& x, const std::vector<doubl
 
 double LinearRegression::predict(double x) {
     return m_slope * x + m_intercept;
+}
+
+void LinearRegression::printModel() {
+    std::cout << "Linear Regression Model: y = " << m_slope << "x + " << m_intercept << std::endl;
 }
